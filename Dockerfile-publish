@@ -1,6 +1,6 @@
 FROM java
 
-LABEL maintainer “bankmock@daocloud.io"
+MAINTAINER dingdayong “dingdayong@21cn.com"
 
 COPY /project/target/bankmock-0.0.1-SNAPSHOT.jar  /usr/src/myapp/bankmock-0.0.1-SNAPSHOT.jar
 
